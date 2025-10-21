@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeSuite;
 public class BaseClass {
 
 	protected static Properties prop;
-	protected WebDriver driver;
+	protected static WebDriver driver;
 
 	// load the configuration file
 	@BeforeSuite
@@ -76,6 +76,16 @@ public class BaseClass {
 				System.out.println("Unable to quit the driver" + e.getMessage());
 			}
 		}
+	}
+
+	// Driver getter method
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	// Driver setter method
+	public void setDriver(WebDriver driver) {
+		BaseClass.driver = driver;
 	}
 
 	// Static wait for pause
