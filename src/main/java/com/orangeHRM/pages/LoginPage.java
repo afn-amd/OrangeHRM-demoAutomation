@@ -15,14 +15,15 @@ public class LoginPage {
 	private By loginButton = By.xpath("//button[text()=' Login ']");
 	private By errorMessage = By.xpath("//p[text()='Invalid credentials']");
 
+	// Initialize ActionDriver object by passing WebDriver instance
 	public LoginPage(WebDriver driver) {
 		actionDriver = new ActionDriver(driver);
 	}
 
 	// Method to perform login
 	public void login(String userName, String passWord) {
-		actionDriver.enterText(userNameField, "admin");
-		actionDriver.enterText(passwordField, "admin123");
+		actionDriver.enterText(userNameField, userName);
+		actionDriver.enterText(passwordField, passWord);
 		actionDriver.click(loginButton);
 	}
 
