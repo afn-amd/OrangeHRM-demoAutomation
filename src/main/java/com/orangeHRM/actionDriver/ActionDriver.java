@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.orangeHRM.base.BaseClass;
+
 public class ActionDriver {
 
 	private WebDriver driver;
@@ -16,7 +18,8 @@ public class ActionDriver {
 
 	public ActionDriver(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		int explicitWait = Integer.parseInt(BaseClass.getProp().getProperty("explicitWait"));
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(explicitWait));
 	}
 
 	// Method to click an element
@@ -33,8 +36,11 @@ public class ActionDriver {
 	public void enterText(By by, String value) {
 		try {
 			waitForElementToBeVisible(by);
-			driver.findElement(by).clear();
-			driver.findElement(by).sendKeys(value);
+			// driver.findElement(by).clear();
+			// driver.findElement(by).sendKeys(value);
+			WebElement element = driver.findElement(by);
+			element.clear();
+			element.sendKeys(value);
 		} catch (Exception e) {
 			System.out.println("Unable to enter the value: " + e.getMessage());
 		}
@@ -66,7 +72,7 @@ public class ActionDriver {
 		}
 	}
 
-	// Method to check if an element is displayed
+	/* Method to check if an element is displayed
 	public boolean isDisplayed(By by) {
 		try {
 			waitForElementToBeVisible(by);
@@ -79,6 +85,17 @@ public class ActionDriver {
 			}
 		} catch (Exception e) {
 			System.out.println("element is not displayed: " + e.getMessage());
+			return false;
+		}
+	}*/
+	
+	// Simplified method to check if an element is displayed
+	public boolean isDisplayed(By by) {
+		try {
+			waitForElementToBeVisible(by);
+			return driver.findElement(by).isDisplayed();
+		} catch (Exception e) {
+			System.out.println("Element is not displayed: " + e.getMessage());
 			return false;
 		}
 	}
@@ -99,7 +116,7 @@ public class ActionDriver {
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			WebElement element = driver.findElement(by);
-			js.executeScript("arguments[0], scrollInToView(true)", element);
+			js.executeScript("arguments[0], scrollInToView(true);", element);
 		} catch (Exception e) {
 			System.out.println("Unable to locate element: " + e.getMessage());
 		}
