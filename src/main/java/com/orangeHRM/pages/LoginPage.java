@@ -38,8 +38,8 @@ public class LoginPage {
 	}
 
 	// Verify if error is correct or not
-	public void verifyErrorMessage(String expectedError) {
-		actionDriver.compareText(errorMessage, expectedError);
+	public boolean verifyErrorMessage(String expectedError) {
+		return actionDriver.compareText(errorMessage, expectedError);
 	}
 
 }
