@@ -23,3 +23,42 @@
 2025-10-23 15:01:04 [main] INFO  ActionDriver - clicked an element
 2025-10-23 15:01:06 [main] INFO  ActionDriver - clicked an element
 2025-10-23 15:01:08 [main] INFO  BaseClass - WebDriver instance is closed.
+2025-10-23 19:06:43 [main] INFO  BaseClass - config.properties file loaded
+2025-10-23 19:07:04 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-23 19:07:17 [main] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-23 19:07:17 [main] TRACE BaseClass - This is a Trace message
+2025-10-23 19:07:17 [main] DEBUG BaseClass - This is a Debug Message
+2025-10-23 19:07:17 [main] WARN  BaseClass - This is a Warn message
+2025-10-23 19:07:17 [main] INFO  ActionDriver - WebDriver instance is created.
+2025-10-23 19:07:17 [main] INFO  BaseClass - ActionDriver instance is created.
+2025-10-23 19:07:19 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-10-23 19:07:19 [main] INFO  ActionDriver - Entered text on: Element with name: password admin
+2025-10-23 19:07:19 [main] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-23 19:07:32 [main] INFO  BaseClass - WebDriver instance is closed.
+2025-10-23 19:07:34 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-23 19:07:41 [main] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-23 19:07:41 [main] TRACE BaseClass - This is a Trace message
+2025-10-23 19:07:41 [main] DEBUG BaseClass - This is a Debug Message
+2025-10-23 19:07:41 [main] WARN  BaseClass - This is a Warn message
+2025-10-23 19:07:41 [main] INFO  ActionDriver - WebDriver instance is created.
+2025-10-23 19:07:41 [main] INFO  BaseClass - ActionDriver instance is created.
+2025-10-23 19:07:50 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-10-23 19:07:50 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-10-23 19:08:01 [main] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-23 19:08:05 [main] INFO  ActionDriver - Element is displayed: Element with text: Admin
+2025-10-23 19:08:05 [main] INFO  ActionDriver - clicked an element--> Element with text: Admin admin123
+2025-10-23 19:08:23 [main] INFO  ActionDriver - clicked an element--> Element with text: Logout
+2025-10-23 19:08:25 [main] INFO  BaseClass - WebDriver instance is closed.
+2025-10-23 19:16:02 [main] INFO  BaseClass - config.properties file loaded
+2025-10-23 19:16:05 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-23 19:16:19 [main] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-23 19:16:19 [main] TRACE BaseClass - This is a Trace message
+2025-10-23 19:16:19 [main] DEBUG BaseClass - This is a Debug Message
+2025-10-23 19:16:19 [main] WARN  BaseClass - This is a Warn message
+2025-10-23 19:16:19 [main] INFO  ActionDriver - WebDriver instance is created.
+2025-10-23 19:16:19 [main] INFO  BaseClass - ActionDriver instance is created.
+2025-10-23 19:16:23 [main] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-23 19:16:23 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin
+2025-10-23 19:16:23 [main] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-23 19:16:38 [main] INFO  ActionDriver - Texts are matching: Invalid credentials equals Invalid credentials
+2025-10-23 19:16:39 [main] INFO  BaseClass - WebDriver instance is closed.
