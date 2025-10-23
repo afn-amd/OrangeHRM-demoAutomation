@@ -7,8 +7,8 @@
         <methods>
           <include name="setupPages"/>
           <include name="setUp"/>
-          <include name="invalidLoginTest"/>
           <include name="tearDown"/>
+          <include name="invalidLoginTest"/>
           <include name="loadConfig"/>
         </methods>
       </class> <!-- com.orangeHRM.tests.LoginPageTest -->

@@ -15,10 +15,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.orangeHRM.actionDriver.ActionDriver;
+
 public class BaseClass {
 
 	protected static Properties prop;
 	protected static WebDriver driver;
+	private static ActionDriver actionDriver;
 
 	// load the configuration file
 	@BeforeSuite
@@ -34,6 +37,11 @@ public class BaseClass {
 		launchBrowser();
 		configureBrowser();
 		staticWait(2);
+		// Initialize the actionDriver only once
+		if (actionDriver == null) {
+			actionDriver = new ActionDriver(driver);
+			System.out.println("ActionDriver instance is created.");
+		}
 	}
 
 	// Initialize WebDriver based on browser defines in config.properties file
@@ -76,6 +84,10 @@ public class BaseClass {
 				System.out.println("Unable to quit the driver" + e.getMessage());
 			}
 		}
+		System.out.println("WebDriver instance is closed.");
+		driver = null;
+		actionDriver = null;
+
 	}
 
 	// Getter method for prop
@@ -83,10 +95,30 @@ public class BaseClass {
 		return prop;
 	}
 
+	/*
 	// Driver getter method
 	public WebDriver getDriver() {
 		return driver;
 	}
+	*/
+	
+	// Getter Method for WebDriver
+	public static WebDriver getDriver() {
+		if (driver == null) {
+			System.out.println("WebDriver is not initialized");
+			throw new IllegalStateException("WebDriver is not initialized");
+		}
+		return driver;
+	}
+	
+	// Getter Method for ActionDriver
+		public static ActionDriver getActionDriver() {
+			if (actionDriver == null) {
+				System.out.println("ActionDriver is not initialized");
+				throw new IllegalStateException("ActionDriver is not initialized");
+			}
+			return actionDriver;
+		}
 
 	// Driver setter method
 	public void setDriver(WebDriver driver) {
