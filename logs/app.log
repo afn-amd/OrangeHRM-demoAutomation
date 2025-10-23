@@ -1,0 +1,25 @@
+2025-10-23 15:00:40 [main] INFO  BaseClass - config.properties file loaded
+2025-10-23 15:00:47 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-23 15:00:50 [main] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-23 15:00:50 [main] TRACE BaseClass - This is a Trace message
+2025-10-23 15:00:50 [main] DEBUG BaseClass - This is a Debug Message
+2025-10-23 15:00:50 [main] WARN  BaseClass - This is a Warn message
+2025-10-23 15:00:50 [main] INFO  ActionDriver - WebDriver instance is created.
+2025-10-23 15:00:50 [main] INFO  BaseClass - ActionDriver instance is created.
+2025-10-23 15:00:52 [main] INFO  ActionDriver - Entered text: Admin
+2025-10-23 15:00:52 [main] INFO  ActionDriver - Entered text: admin
+2025-10-23 15:00:52 [main] INFO  ActionDriver - clicked an element
+2025-10-23 15:00:54 [main] INFO  BaseClass - WebDriver instance is closed.
+2025-10-23 15:00:55 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-23 15:01:01 [main] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-23 15:01:01 [main] TRACE BaseClass - This is a Trace message
+2025-10-23 15:01:01 [main] DEBUG BaseClass - This is a Debug Message
+2025-10-23 15:01:01 [main] WARN  BaseClass - This is a Warn message
+2025-10-23 15:01:01 [main] INFO  ActionDriver - WebDriver instance is created.
+2025-10-23 15:01:01 [main] INFO  BaseClass - ActionDriver instance is created.
+2025-10-23 15:01:01 [main] INFO  ActionDriver - Entered text: admin
+2025-10-23 15:01:02 [main] INFO  ActionDriver - Entered text: admin123
+2025-10-23 15:01:02 [main] INFO  ActionDriver - clicked an element
+2025-10-23 15:01:04 [main] INFO  ActionDriver - clicked an element
+2025-10-23 15:01:06 [main] INFO  ActionDriver - clicked an element
+2025-10-23 15:01:08 [main] INFO  BaseClass - WebDriver instance is closed.

@@ -1,0 +1,5 @@
+2025-10-23 15:00:50 [main] ERROR BaseClass - This is a Error message
+2025-10-23 15:00:50 [main] FATAL BaseClass - This is a Fatal message
+2025-10-23 15:00:54 [main] ERROR ActionDriver - Texts are not matching: Invalid credentials does not equal Invalid Credentials
+2025-10-23 15:01:01 [main] ERROR BaseClass - This is a Error message
+2025-10-23 15:01:01 [main] FATAL BaseClass - This is a Fatal message

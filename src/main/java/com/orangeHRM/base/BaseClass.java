@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,12 +17,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangeHRM.actionDriver.ActionDriver;
+import com.orangeHRM.utilities.LoggerManager;
 
 public class BaseClass {
 
 	protected static Properties prop;
 	protected static WebDriver driver;
 	private static ActionDriver actionDriver;
+	public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
 	// load the configuration file
 	@BeforeSuite
@@ -29,6 +32,7 @@ public class BaseClass {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
 		prop.load(fis);
+		logger.info("config.properties file loaded");
 	}
 
 	@BeforeMethod
@@ -37,10 +41,16 @@ public class BaseClass {
 		launchBrowser();
 		configureBrowser();
 		staticWait(2);
+		logger.info("WebDriver initialized and Browser maximized");
+		logger.trace("This is a Trace message");
+		logger.error("This is a Error message");
+		logger.debug("This is a Debug Message");
+		logger.fatal("This is a Fatal message");
+		logger.warn("This is a Warn message");
 		// Initialize the actionDriver only once
 		if (actionDriver == null) {
 			actionDriver = new ActionDriver(driver);
-			System.out.println("ActionDriver instance is created.");
+			logger.info("ActionDriver instance is created.");
 		}
 	}
 
@@ -49,10 +59,13 @@ public class BaseClass {
 		String browser = prop.getProperty("browser");
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
+			logger.info("ChromeDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
+			logger.info("FirefoxDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
+			logger.info("EdgeDriver Instance is created.");
 		} else {
 			throw new IllegalArgumentException(browser + " browser not supported!");
 		}
@@ -84,7 +97,7 @@ public class BaseClass {
 				System.out.println("Unable to quit the driver" + e.getMessage());
 			}
 		}
-		System.out.println("WebDriver instance is closed.");
+		logger.info("WebDriver instance is closed.");
 		driver = null;
 		actionDriver = null;
 
