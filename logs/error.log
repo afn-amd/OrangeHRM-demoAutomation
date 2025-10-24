@@ -10,3 +10,176 @@
 2025-10-23 19:07:41 [main] FATAL BaseClass - This is a Fatal message
 2025-10-23 19:16:19 [main] ERROR BaseClass - This is a Error message
 2025-10-23 19:16:19 [main] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:22:59 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 10:22:59 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:23:00 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-24 10:23:00 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to enter the value: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Unable to enter the value: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, sendKeysToElement [id, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7e442e24d71e734306a45290818a485d)] -> css selector: input[type='password']]
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Unable to describe the element: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - element is not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - unable to click element
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to enter the value: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - unable to compare texts: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to describe the element: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - element is not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - unable to click element
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to describe the element: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:01 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not displayed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e442e24d71e734306a45290818a485d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53093/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e442e24d71e734306a45290818a485d
+2025-10-24 10:23:07 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 10:23:07 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:26:14 [main] ERROR BaseClass - This is a Error message
+2025-10-24 10:26:14 [main] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:26:56 [main] ERROR BaseClass - This is a Error message
+2025-10-24 10:26:56 [main] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:29:22 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-24 10:29:22 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:29:22 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 10:29:22 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 10:29:23 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-24 10:29:23 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:26:46 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:26:46 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:26:47 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-24 11:26:47 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:26:48 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 11:26:48 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:26:57 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 11:26:57 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:29:22 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:29:22 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:29:28 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:29:28 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:29:37 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:29:37 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:29:51 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:29:51 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:30:23 [TestNG-tests-1] ERROR ActionDriver - element is not visible: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='oxd-brand-banner']//img (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49928/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: faf76d2930466246f8f054cedf46644d
+2025-10-24 11:30:38 [TestNG-tests-1] ERROR ActionDriver - Unable to describe the element: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [faf76d2930466246f8f054cedf46644d, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49928/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: faf76d2930466246f8f054cedf46644d
+2025-10-24 11:30:38 [TestNG-tests-1] ERROR ActionDriver - Element is not displayed: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [faf76d2930466246f8f054cedf46644d, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49928/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: faf76d2930466246f8f054cedf46644d
+2025-10-24 11:31:21 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:31:21 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:31:28 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:31:28 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:31:37 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:31:37 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:31:50 [TestNG-tests-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:31:50 [TestNG-tests-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:35:28 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-24 11:35:28 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:35:30 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-24 11:35:30 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:35:31 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 11:35:31 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 11:35:40 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 11:35:40 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
