@@ -652,3 +652,11 @@ Session ID: d069279f88d8b0be47ec8ae83bf1625c
 2025-10-24 18:12:45 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
 2025-10-24 18:12:59 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
 2025-10-24 18:12:59 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 18:15:44 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-24 18:15:44 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-24 18:15:45 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 18:15:45 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-24 18:15:45 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-24 18:15:45 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-24 18:15:56 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-24 18:15:56 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
