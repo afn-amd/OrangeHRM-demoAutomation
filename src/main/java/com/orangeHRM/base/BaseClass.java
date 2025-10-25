@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangeHRM.actionDriver.ActionDriver;
+import com.orangeHRM.utilities.ExtentManager;
 import com.orangeHRM.utilities.LoggerManager;
 
 public class BaseClass {
@@ -35,6 +36,8 @@ public class BaseClass {
 		FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
 		prop.load(fis);
 		logger.info("config.properties file loaded");
+		// Start the Extent Report
+		ExtentManager.getReporter();
 	}
 
 	@BeforeMethod
@@ -65,14 +68,17 @@ public class BaseClass {
 		if (browser.equalsIgnoreCase("chrome")) {
 			//driver = new ChromeDriver();
 			driver.set(new ChromeDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("ChromeDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			//driver = new FirefoxDriver();
 			driver.set(new FirefoxDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("FirefoxDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("edge")) {
 			//driver = new EdgeDriver();
 			driver.set(new EdgeDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("EdgeDriver Instance is created.");
 		} else {
 			throw new IllegalArgumentException(browser + " browser not supported!");
@@ -110,6 +116,7 @@ public class BaseClass {
 		//actionDriver = null;
 		driver.remove();
 		actionDriver.remove();
+		ExtentManager.endTest();
 	}
 
 	// Getter method for prop
