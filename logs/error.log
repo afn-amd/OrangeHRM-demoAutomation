@@ -691,3 +691,12 @@ Session ID: d7b821bff33652b3c0070276f4bb8d4c
 2025-10-25 10:57:33 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Texts are not matching: Invalid credentials does not equal Invalid credentialss
 2025-10-25 10:57:40 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
 2025-10-25 10:57:40 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a Fatal message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a Fatal message
+2025-10-25 15:08:39 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Texts are not matching: Invalid credentials does not equal Invalid credentialss
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a Fatal message

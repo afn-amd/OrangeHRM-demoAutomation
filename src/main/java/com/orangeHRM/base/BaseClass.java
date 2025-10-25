@@ -37,7 +37,7 @@ public class BaseClass {
 		prop.load(fis);
 		logger.info("config.properties file loaded");
 		// Start the Extent Report
-		ExtentManager.getReporter();
+		// ExtentManager.getReporter(); [TestListener]
 	}
 
 	@BeforeMethod
@@ -116,7 +116,7 @@ public class BaseClass {
 		//actionDriver = null;
 		driver.remove();
 		actionDriver.remove();
-		ExtentManager.endTest();
+		// ExtentManager.endTest(); [TestListener]
 	}
 
 	// Getter method for prop

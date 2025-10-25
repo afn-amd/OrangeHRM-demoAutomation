@@ -705,3 +705,49 @@
 2025-10-25 10:57:43 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: manda user
 2025-10-25 10:57:46 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Logout
 2025-10-25 10:57:50 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-25 15:08:07 [main] INFO  BaseClass - config.properties file loaded
+2025-10-25 15:08:20 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-25 15:08:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-25 15:08:20 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-25 15:08:26 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-25 15:08:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-25 15:08:27 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-25 15:08:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-25 15:08:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is a Debug Message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - This is a Warn message
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver instance is created.
+2025-10-25 15:08:28 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread: 33
+2025-10-25 15:08:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-25 15:08:29 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed.
+2025-10-25 15:08:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin
+2025-10-25 15:08:35 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-25 15:08:37 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-25 15:08:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-25 15:08:38 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-25 15:08:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-25 15:08:42 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-25 15:08:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-25 15:08:48 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->admin
+2025-10-25 15:08:48 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-25 15:08:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-25 15:08:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed: Element with text: Admin
+2025-10-25 15:08:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: tran hung
+2025-10-25 15:09:03 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with class: oxd-userdropdown-link
+2025-10-25 15:09:06 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
