@@ -1417,3 +1417,209 @@ Session ID: 1d5d1c8141c03708801496930f97416a
 2025-10-25 16:46:10 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Logout
 2025-10-25 16:46:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Logout
 2025-10-25 16:46:14 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:53:09 [main] INFO  BaseClass - config.properties file loaded
+2025-10-27 19:53:19 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:53:19 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - This is a Warn message
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread: 33
+2025-10-27 19:53:26 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 19:53:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 19:53:29 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Unable to describe the element
+2025-10-27 19:53:30 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-27 19:53:31 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:54:45 [main] INFO  BaseClass - config.properties file loaded
+2025-10-27 19:54:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:54:48 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - This is a Warn message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread: 33
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:54:54 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 19:54:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 19:54:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 19:54:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 19:54:56 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 19:54:57 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Unable to describe the element
+2025-10-27 19:54:57 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-27 19:54:59 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:57:05 [main] INFO  BaseClass - config.properties file loaded
+2025-10-27 19:57:09 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:57:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - This is a Warn message
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:57:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread: 33
+2025-10-27 19:57:14 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-27 19:57:16 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 19:57:17 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 19:57:17 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 19:57:17 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 19:57:17 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin1
+2025-10-27 19:57:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 19:57:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 19:57:19 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 19:57:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 19:57:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 19:57:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Unable to describe the element
+2025-10-27 19:57:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-27 19:57:21 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color red to element: Element with text: Invalid credentials
+2025-10-27 19:57:22 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:57:22 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 19:57:23 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 19:57:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 19:57:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 19:57:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 19:57:32 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-10-27 19:57:32 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed: Element with text: Admin
+2025-10-27 19:57:32 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: manda user
+2025-10-27 19:57:33 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: manda user
+2025-10-27 19:57:33 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-10-27 19:57:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Logout
+2025-10-27 19:57:38 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:08 [main] INFO  BaseClass - config.properties file loaded
+2025-10-27 20:11:12 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:13 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread: 33
+2025-10-27 20:11:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin1
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-27 20:11:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 20:11:20 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 20:11:21 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 20:11:21 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 20:11:22 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color red to element: Element with text: Invalid credentials
+2025-10-27 20:11:23 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:23 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Unable to describe the element
+2025-10-27 20:11:23 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-27 20:11:24 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:26 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-27 20:11:28 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 20:11:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 20:11:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 20:11:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 20:11:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 20:11:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 20:11:33 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-10-27 20:11:33 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed: Element with text: Admin
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread: 35
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: manda user
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: manda user
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 20:11:35 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-10-27 20:11:37 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element: Unable to describe the element
+2025-10-27 20:11:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Logout
+2025-10-27 20:11:37 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Unable to describe the element
+2025-10-27 20:11:39 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:40 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.
+2025-10-27 20:11:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Instance is created.
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and Browser maximized
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is a Trace message
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is a Debug Message
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - This is a Warn message
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver instance is created.
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread: 34
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: username
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with name: password
+2025-10-27 20:11:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2025-10-27 20:11:48 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-10-27 20:11:48 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Login
+2025-10-27 20:11:50 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-10-27 20:11:50 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed: Element with text: Admin
+2025-10-27 20:11:51 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: manda user
+2025-10-27 20:11:51 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: manda user
+2025-10-27 20:11:51 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-10-27 20:11:52 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element--> Element with text: Logout
+2025-10-27 20:11:56 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed.

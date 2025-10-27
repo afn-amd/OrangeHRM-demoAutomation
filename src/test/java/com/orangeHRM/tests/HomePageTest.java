@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.orangeHRM.base.BaseClass;
 import com.orangeHRM.pages.HomePage;
 import com.orangeHRM.pages.LoginPage;
+import com.orangeHRM.utilities.DataProviders;
 import com.orangeHRM.utilities.ExtentManager;
 
 public class HomePageTest extends BaseClass {
@@ -20,11 +21,11 @@ public class HomePageTest extends BaseClass {
 		homePage = new HomePage(getDriver());
 	}
 
-	@Test
-	public void verifyOrangeHRMlogo() {
+	@Test(dataProvider = "validLoginData", dataProviderClass = DataProviders.class)
+	public void verifyOrangeHRMlogo(String username, String password) {
 		// ExtentManager.startTest("Home Page Verify Logo Test"); [TestListener]
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
-		loginPage.login("Admin", "admin123");
+		loginPage.login(username, password);
 		ExtentManager.logStep("Verifying Logo is visible or not");
 		Assert.assertTrue(homePage.verifyOrangeHRMlogo(), "Logo is not visible");
 		ExtentManager.logStep("Validation Successful");

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.orangeHRM.base.BaseClass;
 import com.orangeHRM.pages.HomePage;
 import com.orangeHRM.pages.LoginPage;
+import com.orangeHRM.utilities.DataProviders;
 import com.orangeHRM.utilities.ExtentManager;
 
 public class LoginPageTest extends BaseClass {
@@ -20,12 +21,12 @@ public class LoginPageTest extends BaseClass {
 		homePage = new HomePage(getDriver());
 	}
 
-	@Test
-	public void verifyValidLoginTest() {
+	@Test(dataProvider = "validLoginData", dataProviderClass = DataProviders.class)
+	public void verifyValidLoginTest(String username, String password) {
 		// ExtentManager.startTest("Valid Login Test"); [TestListener]
 		System.out.println("Running testMethod1 on thread: " + Thread.currentThread().threadId());
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
-		loginPage.login("admin", "admin123");
+		loginPage.login(username, password);
 		ExtentManager.logStep("Verifying Admin tab is visible or not");
 		Assert.assertTrue(homePage.isAdminTabVisible(), "Admin tab should be visible after succesfull login!");
 		ExtentManager.logStep("Validation Successful!");
@@ -34,12 +35,12 @@ public class LoginPageTest extends BaseClass {
 		staticWait(2);
 	}
 
-	@Test
-	public void invalidLoginTest() {
+	@Test(dataProvider = "invalidLoginData", dataProviderClass = DataProviders.class)
+	public void invalidLoginTest(String username, String password) {
 		// ExtentManager.startTest("Invalid Login Test"); [TestListener]
 		System.out.println("Running testMethod2 on thread: " + Thread.currentThread().threadId());
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
-		loginPage.login("Admin", "admin");
+		loginPage.login(username, password);
 		String expectedErrorMessage = "Invalid credentialss";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage), "Test Failed: Invalid Error Message");
 		ExtentManager.logStep("Validation Successful");
